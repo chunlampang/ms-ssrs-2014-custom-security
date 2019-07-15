@@ -85,7 +85,8 @@ Set PermissionSetName="FullTrust" to configuration.mscorlib.security.policy.Poli
         PermissionSetName="FullTrust">
 ```
 
-Append following CodeGroup to configuration.mscorlib.security.policy.PolicyLevel
+Append following CodeGroup to configuration.mscorlib.security.policy.PolicyLevel\
+(Remind: replace <install path> to your install path)
 ```
 <CodeGroup
         class="UnionCodeGroup"
@@ -96,7 +97,7 @@ Append following CodeGroup to configuration.mscorlib.security.policy.PolicyLevel
     <IMembershipCondition
             class="UrlMembershipCondition"
             version="1"
-            Url="&#x1F538;\ReportServer\bin\Microsoft.Samples.ReportingServices.CustomSecurity.dll" />
+            Url="<install path>\ReportServer\bin\Microsoft.Samples.ReportingServices.CustomSecurity.dll" />
 </CodeGroup>
 ```
 
