@@ -26,7 +26,7 @@ namespace Microsoft.Samples.ReportingServices.CustomSecurity.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:56789/ReportServer/ReportService2010.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/ReportServer/ReportService2010.asmx")]
         public string Microsoft_Samples_ReportingServices_CustomSecurity_localhost_ReportingService2010 {
             get {
                 return ((string)(this["Microsoft_Samples_ReportingServices_CustomSecurity_localhost_ReportingService2010" +
